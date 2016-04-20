@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.intro-section {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  background: url('http://ygopro.us/img/bg.jpg') center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #ffffff;
+  height: 100%;
+}
+
+.btn-default {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.gallery-section { 
+  height: 100%;
+  padding-top: 100px;
+  background: #eee;
+}
+
+.gallery-section h1 {
+  text-align: center; 
+}
+
+section .row {
+  margin-top: 10px;
+  display: flex;
+  margin: 0 0 30px;
+  width: 100%;
+}
